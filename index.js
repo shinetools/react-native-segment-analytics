@@ -23,5 +23,9 @@ export default {
 
   alias: function (newId: string) {
     SegmentAnalytics.alias(newId);
+  },
+
+  reset: function() {
+    SegmentAnalytics.reset();
   }
 };
