@@ -91,6 +91,7 @@ public class SegmentAnalyticsModule extends ReactContextBaseJavaModule {
         } catch (Exception e) {
             Log.e("SegmentAnalyticsModule", "Failed to alias " + newId + ". " + e.getMessage());
         }
+    }
 
     @ReactMethod
     public void reset() {
