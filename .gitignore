@@ -43,3 +43,5 @@ android/app/libs
 android/keystores/debug.keystore
 android/gradlew
 android/gradlew.bat
+
+index.node.js
